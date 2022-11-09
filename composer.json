@@ -23,7 +23,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": "~2.0.14",
+        "rcnowak/yii2": "1.0",
         "phpspec/php-diff": "^1.1.0"
     },
     "require-dev": {
@@ -66,6 +66,19 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+    {
+      "type": "package",
+      "package": {
+        "name": "rcnowak/yii2",
+        "version": "1.0",
+        "type": "framework",
+        "source": {
+          "url": "https://github.com/RCnowak/yii2.git",
+          "type": "git",
+          "reference": "master"
         }
+      }
+    }
     ]
 }
